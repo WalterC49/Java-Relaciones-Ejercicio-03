@@ -10,7 +10,7 @@ package ejercicio_03.Enumeraciones;
  * @author Walter
  */
 public enum Palo {
-    ESPADAS("Espadas"),BASTOS("Bastos"),OROS("Oros"),COPAS("Copas");
+    ESPADAS("Espada"),BASTOS("Basto"),OROS("Oro"),COPAS("Copa");
     
     String nombre;
     

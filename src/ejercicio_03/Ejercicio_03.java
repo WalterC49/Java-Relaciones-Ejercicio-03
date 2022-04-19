@@ -18,6 +18,8 @@ y luego se llama al método, este no mostrara esa primera carta.
 */
 package ejercicio_03;
 
+import ejercicio_03.Servicios.Servicios;
+
 /**
  *
  * @author Walter
@@ -28,7 +30,10 @@ public class Ejercicio_03 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        System.out.println("Este programa te permite controlar un mazo de 40 cartas.");
+        Servicios Serv = new Servicios();
+        Serv.CrearBaraja();
+        Serv.Menu();
     }
     
 }
